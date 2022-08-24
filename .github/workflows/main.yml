@@ -2,7 +2,7 @@ name: practice hosted runner
 
 env:
   Message: "i'm akash user"
-  
+
 on:
   push:
     branches: ["main", "master"]
@@ -12,7 +12,7 @@ on:
 
 jobs:
   self_hosted_runner:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
