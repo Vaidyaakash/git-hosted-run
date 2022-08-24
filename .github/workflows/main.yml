@@ -1,6 +1,8 @@
 name: practice hosted runner
+
 env:
   Message: "i'm akash user"
+  
 on:
   push:
     branches: ["main", "master"]
