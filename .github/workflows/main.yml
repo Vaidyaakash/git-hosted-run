@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  practice_run:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
