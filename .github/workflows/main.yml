@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  job1:
+  self_hosted_runner:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
