@@ -1,6 +1,6 @@
 name: practice hosted runner
 env:
-  Message: i'm akash user
+  Message: "i'm akash user"
 on:
   push:
     branches: ["main", "master"]
@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-      - run: echo $Message
+      run: echo $Message
       - name: Run a multi-line script
-      - run: |
+      run: |
         echo need to do practice for it
         echo this is for practice purpose
